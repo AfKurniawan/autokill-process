@@ -16,7 +16,7 @@ while [ 1 ]; do
         PID = $2;
         TTY = $7;
 
-        if((CPU_Usage >= '$Max_CPU_Usage' || RAM_Usage >= '$Max_RAM_Usage' ) &&  !($1 == "USER" || $1 == "root" || $1 == "daemon" || $1 == "mysql" || $1 == "avahi" || $1 == "polkitd"))
+        if((RAM_Usage >= '$Max_RAM_Usage' ) &&  !($1 == "USER" || $1 == "root" || $1 == "daemon" || $1 == "mysql" || $1 == "avahi" || $1 == "polkitd"))
         {
             Func_Num_of_Ocur = "cat ./auto_killer_data | grep "PID" | wc -l";
             Func_Num_of_Ocur |getline Str_Num_Of_Ocur;              
