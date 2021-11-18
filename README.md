@@ -3,6 +3,6 @@ Usage:
 
 Run as root privileges
 
-``` sudo chmod autokill-process.sh ```
+``` sudo chmod +x autokill-process.sh ```
 
 ```nohup ./autokiller.sh & ```
