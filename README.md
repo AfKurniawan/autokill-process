@@ -8,4 +8,4 @@ Run as root privileges
 
 ```nohup ./autokill-process.sh & ```
 
-You can also set ```Max_CPU_Usage``` like you want
+You can also set ```Max_CPU_Usage``` and ```Max_RAM_Usage``` like you want
