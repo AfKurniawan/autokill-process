@@ -5,6 +5,6 @@ Run as root privileges
 
 ``` sudo chmod +x autokill-process.sh ```
 
-```nohup ./autokiller.sh & ```
+```nohup ./autokill-process.sh & ```
 
 You can also set ```Max_CPU_Usage``` like you want
