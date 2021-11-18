@@ -1,4 +1,5 @@
 # autokill-process
+This script is used for free up more resource like CPU or Ram consumed by process
 Usage:
 
 Run as root privileges
